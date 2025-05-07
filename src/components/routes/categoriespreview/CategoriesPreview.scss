@@ -1,0 +1,17 @@
+.shop-container {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  column-gap: 10px;
+  row-gap: 50px;
+  .title {
+    font-size: 28px;
+    margin-bottom: 25px;
+    cursor: pointer;
+  }
+
+  .preview {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+  }
+}
